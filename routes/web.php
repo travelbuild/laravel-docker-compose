@@ -16,8 +16,5 @@ use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 class User extends Eloquent {}
 
 Route::get('/', function () {
-	Log::error('my-error');
-	Log::info('bıdı bıdı');
-	throw new Exception('error testing');
-
+    echo "hello world!";
 });
